@@ -1,0 +1,20 @@
+{
+    "name": "melkady/check24",
+    "description": "Sample blog for check24 task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mohammed Elkady",
+            "email": "m.elkady365@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Check24\\": "./"
+        },
+        "files" : [
+            "./helpers.php"
+        ]
+    }
+}
